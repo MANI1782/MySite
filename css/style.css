@@ -38,7 +38,7 @@ h2{
     
 }
 .middlecontainer{
-  background-color: #f3f1eb;
+  
   margin: 100px;
   margin-left: 0px;
    margin-right: 0px;
@@ -145,10 +145,11 @@ span{
   .paragraph{
 
     margin: 10px auto 60px auto;
+    line-height: 2;
   }
   hr{
 
-    width: 70%;
+    width: 40%;
     border-style: none;
     border-top-style: dotted;
     border-width: 10px;
@@ -157,6 +158,8 @@ span{
   .hellopara{
     width: 50%;
     margin: 40px auto;
+   line-height: 2;
+    
   }
   a{
     color: #5d4d12;
@@ -171,3 +174,8 @@ span{
 
     color: rgb(255, 245, 207);
   }
+.man{
+  height: 200px;
+  clip-path: circle();
+
+}
